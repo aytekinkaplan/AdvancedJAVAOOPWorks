@@ -1,4 +1,5 @@
 package work001Test;// Import the necessary classes for testing
+
 import com.oopworks.work001.Calculator;
 import org.junit.Assert;
 import org.junit.Test;
@@ -21,5 +22,21 @@ public class CalculatorTesting {
         Calculator calc = new Calculator();
         // Assert that the subtract method returns the correct result
         Assert.assertEquals(1, calc.subtract(4, 3));
+    }
+
+    @Test
+    public void testMultiplication() {
+        // Create a new Calculator object
+        Calculator calc = new Calculator();
+        // Assert that the subtract method returns the correct result
+        Assert.assertEquals(6, calc.multiply(2, 3));
+    }
+
+    @Test
+    public void testDivision() {
+        // Create a new Calculator object
+        Calculator calc = new Calculator();
+        // Assert that the subtract method returns the correct result
+        Assert.assertEquals(2, calc.divide(6, 3));
     }
 }
