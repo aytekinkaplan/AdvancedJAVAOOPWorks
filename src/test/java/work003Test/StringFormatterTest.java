@@ -1,3 +1,5 @@
+package work003Test;
+
 import com.oopworks.work003.StringFormatter;
 import org.junit.Assert;
 import org.junit.Test;
@@ -57,4 +59,6 @@ public class StringFormatterTest {
     public void testStringFormatter11() {
         Assert.assertEquals("W", StringFormatter.substring("Hello World", 6, 7));
     }
+
+
 }
