@@ -55,6 +55,6 @@ public class StringFormatterTest {
 
     @Test
     public void testStringFormatter11() {
-        Assert.assertEquals("World", StringFormatter.substring("Hello World", 6, 7));
+        Assert.assertEquals("W", StringFormatter.substring("Hello World", 6, 7));
     }
 }
