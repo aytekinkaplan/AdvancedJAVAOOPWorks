@@ -52,4 +52,15 @@ public class CalculatorTest {
         // Then
         Assert.assertEquals(0, result); // 1 / 2 = 0
     }
+    //In these test cases, we follow the principles of unit testing:
+    //
+    //Isolation: Each test method (testAdd and testSubtract) is independent of others.
+    // They test specific functionalities of the Calculator class. This is what you
+    // want to do, test each case systematically and separately.
+
+    //Repeatability: These tests can be run multiple times, and they will produce the same results,
+    // ensuring consistent behavior of the methods being tested.
+
+    //Simplicity: The tests are straightforward and focused solely on the method
+    // they are meant to test. For instance, testAdd only tests the add method.
 }
