@@ -15,12 +15,12 @@ public class StringFormatterTest {
 
     @Test
     public void testStringFormatter03() {
-        Assert.assertEquals("Hello World", StringFormatter.capitalize("hello world"));
+        Assert.assertEquals("Hello world", StringFormatter.capitalize("hello world"));
     }
 
     @Test
     public void testStringFormatter04() {
-        Assert.assertEquals("hello world", StringFormatter.uncapitalize("Hello World"));
+        Assert.assertEquals("hello World", StringFormatter.uncapitalize("Hello World"));
     }
 
     @Test
@@ -35,7 +35,7 @@ public class StringFormatterTest {
 
     @Test
     public void testStringFormatter07() {
-        Assert.assertEquals("Hello World", StringFormatter.repeat("Hello World", 3));
+        Assert.assertEquals("Hello WorldHello WorldHello World", StringFormatter.repeat("Hello World", 3));
     }
 
     @Test
