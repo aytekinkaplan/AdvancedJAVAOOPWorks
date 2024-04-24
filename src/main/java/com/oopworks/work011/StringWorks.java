@@ -33,6 +33,7 @@ public class StringWorks {
        System.out.println(string.substring(0, 3).toLowerCase() + string.substring(3));
        System.out.println(string.substring(3).toUpperCase() + string.substring(0, 3));
        System.out.println(string.substring(3).toLowerCase() + string.substring(0, 3));
+
    }
 
         return string;
